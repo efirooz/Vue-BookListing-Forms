@@ -5,7 +5,7 @@
     <div>
       <label for="finishedReading">
         Finished Reading
-        <input type="checkbox" v-model="bookData.finishedReadings">
+        <input type="checkbox" v-model="bookData.finishedReading">
       </label>
     </div>
     <div>
@@ -31,7 +31,7 @@ export default {
       bookData: {
         bookTitle: "",
         bookAuthor: "",
-        finishedReadings: false,
+        finishedReading: false,
         ownership: []
       }
     };
